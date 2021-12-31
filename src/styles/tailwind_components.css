@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-dark-blue {
+  background: #0ca59d;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+.dosis {
+  font-family: "Dosis", sans-serif;
+}
+
+.heading {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.heading--white {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+.heading--yellow {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #f59e0b;
+  margin-bottom: 0.75rem;
+}
+
+.text {
+  margin-bottom: 0.75rem;
+  color: #4b5563;
+}
+
+.text--white {
+  margin-bottom: 0.75rem;
+  color: #ffffff;
+}
